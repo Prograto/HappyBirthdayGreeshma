@@ -68,7 +68,7 @@ html {
 
 @keyframes fall {
     from {
-        transform: translateY(-1000px); 
+        transform: translateY(-2000px); 
         opacity: 1;
     }
     to {
