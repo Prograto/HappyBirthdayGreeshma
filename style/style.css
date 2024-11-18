@@ -81,10 +81,26 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 0.5vh;
   }
 
- @media (min-width:768px) {
+
+  .mainimg{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+  .mainimg img{
+    height: 58vh;
+    width: 58vw;
+    border-radius: 20px;
+  }
+
+  @media (min-width:768px) {
+    .container{
+      vertical-align: center;
+    }
     .maincon{
       flex-direction: row;
       align-items: center;
@@ -93,16 +109,6 @@ html {
       height: 76vh;
       width: 38vw;
     }
-  }
-  .mainimg{
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-  }
-  .mainimg img{
-    height: 60vh;
-    width: 60vw;
-    border-radius: 20px;
   }
 
   .container {
