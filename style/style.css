@@ -85,7 +85,16 @@ html {
     margin-top: 0.5vh;
   }
 
-
+ @media (min-width:768px) {
+    .maincon{
+      flex-direction: row;
+      align-items: center;
+    }
+    .mainimg img{
+      height: 76vh;
+      width: 38vw;
+    }
+  }
   .mainimg{
     display: flex;
     justify-content: center;
@@ -95,17 +104,6 @@ html {
     height: 60vh;
     width: 60vw;
     border-radius: 20px;
-  }
-
-  @media (min-width:768px) {
-    .maincon{
-      flex-direction: row;
-      align-items: center;
-    }
-    .mainimg img{
-      height: 76vh;
-      width: 38vw;
-    }
   }
 
   .container {
